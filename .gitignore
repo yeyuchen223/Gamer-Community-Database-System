@@ -1,0 +1,29 @@
+# C++ 编译生成的临时文件
+*.o
+*.obj
+*.pch
+*.idb
+*.pdb
+*.ilk
+*.exp
+
+# 忽略 Qt 编译生成的目录和文件 (防范未开启 Shadow build 的情况)
+debug/
+release/
+Makefile
+Makefile.*
+*.qmake.stash
+
+# 忽略 Qt 自动生成的中间代码
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略本地用户配置文件
+*.pro.user
+*.pro.user.*

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/imag">
+        <file>pic/addnote.png</file>
+        <file>pic/delete.png</file>
+        <file>pic/edit.png</file>
+        <file>pic/save.png</file>
+        <file>pic/icon.png</file>
+    </qresource>
+</RCC>
